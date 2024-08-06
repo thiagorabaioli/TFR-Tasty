@@ -38,3 +38,7 @@ nav h1{
     width: 100%;
     max-width: 960px;
 }
+
+.pizza-card img {
+    border-radius: 12px, 0, 0 12px;
+}
