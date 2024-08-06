@@ -39,6 +39,20 @@ nav h1{
     max-width: 960px;
 }
 
+#pizzas{
+    padding: 40px 0;
+    background-color: var(--bg-light-gray);
+}
+
+.pizza-card {
+    display: flex;
+}
+
 .pizza-card img {
+    width: 200px;
     border-radius: 12px, 0, 0 12px;
+}
+
+.pizza-card-description{
+    background-color: #fff;
 }
