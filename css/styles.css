@@ -16,12 +16,25 @@
     margin: 0;
 }
 
+nav{
+    border: #E5E5E5 1px solid;
+}
+
 header{
     background-color: var(--color-red);
     height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 nav h1{
+    text-align: center;
     color: var(--color-yellow);
     font-size: 24px;
+}
+
+.conteiner{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
 }
